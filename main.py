@@ -1,6 +1,9 @@
 import logging
 from telethon import TelegramClient, events, sync
 
+import keep_alive
+keep_alive.keep_alive()
+
 # Konfigurasi API
 api_id = 'API ID'
 api_hash = 'API HASH'
