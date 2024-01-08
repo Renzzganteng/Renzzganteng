@@ -1,1 +1,2 @@
 telethon==1.23.0
+Flask==2.0.1
